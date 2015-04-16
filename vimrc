@@ -244,7 +244,7 @@ set background=dark
 hi! Folded cterm=NONE term=NONE
 
 " Set the colorscheme
-colorscheme solarized
+colorscheme molokai
 
 " ----- airblade/vim-gitgutter settings -----
 hi clear SignColumn

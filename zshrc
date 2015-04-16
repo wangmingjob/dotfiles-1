@@ -57,7 +57,7 @@ load_module ~/.util/host.sh
 load_module ~/.util/host.zsh
 
 # miscellaneous, shell-agnostic settings
-load_module ~/.util/misc.sh
+#load_module ~/.util/misc.sh
 
 # prompt settings
 load_module ~/.util/prompt.zsh
