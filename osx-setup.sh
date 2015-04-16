@@ -35,8 +35,8 @@ export PATH="/usr/local/bin:$PATH"
 
 # Install and setup git
 brew install git
-git config --global user.name "Jacob Zimmerman"
-git config --global user.email "zimmerman.jake@gmail.com"
+git config --global user.name "wangmingjob"
+git config --global user.email "wangmingjob@gmail.com"
 git config --global color.ui true
 git config --global push.default simple
 git config --global credential.helper osxkeychain
@@ -60,7 +60,7 @@ brew install vim
 brew tap thoughtbot/formulae
 brew install rcm
 # If you are not Jake Zimmerman, you will want to fork this repo first
-git clone --recursive https://github.com/jez/dotfiles ~/.dotfiles
+git clone --recursive git@github.com:wangmingjob/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 # Make sure we use correct rcrc, as there will be no ~/.rcrc yet
 RCRC="./rcrc" rcup
@@ -71,8 +71,8 @@ exit
 # TODO repoen iTerm2
 
 # Download and import iTerm colors
-git clone https://github.com/mbadolato/iTerm2-Color-Schemes ~/Desktop/iTerm2-Color-Schemes
-open ~/Desktop/iTerm2-Color-Schemes/schemes/*itermcolors
+#git clone https://github.com/mbadolato/iTerm2-Color-Schemes ~/Desktop/iTerm2-Color-Schemes
+#open ~/Desktop/iTerm2-Color-Schemes/schemes/*itermcolors
 # Be sure to change the location to load iTerm config defaults from
 
 # Install ruby
@@ -95,11 +95,11 @@ brew install caskroom/cask/brew-cask
 brew cask install iterm2
 
 # Other utilities
-brew cask install alfred
-brew cask alfred
-brew cask install google-chrome
-brew cask install google-drive
-brew cask install dropbox
+#brew cask install alfred
+#brew cask alfred
+#brew cask install google-chrome
+#brew cask install google-drive
+#brew cask install dropbox
 brew cask install spotify
 brew cask install amethyst
 brew cask install inskape
