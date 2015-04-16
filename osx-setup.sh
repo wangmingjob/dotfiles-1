@@ -71,8 +71,8 @@ exit
 # TODO repoen iTerm2
 
 # Download and import iTerm colors
-#git clone https://github.com/mbadolato/iTerm2-Color-Schemes ~/Desktop/iTerm2-Color-Schemes
-#open ~/Desktop/iTerm2-Color-Schemes/schemes/*itermcolors
+git clone https://github.com/mbadolato/iTerm2-Color-Schemes ~/Desktop/iTerm2-Color-Schemes
+open ~/Desktop/iTerm2-Color-Schemes/schemes/*itermcolors
 # Be sure to change the location to load iTerm config defaults from
 
 # Install ruby
@@ -97,7 +97,7 @@ brew cask install iterm2
 # Other utilities
 #brew cask install alfred
 #brew cask alfred
-#brew cask install google-chrome
+brew cask install google-chrome
 #brew cask install google-drive
 #brew cask install dropbox
 brew cask install spotify
