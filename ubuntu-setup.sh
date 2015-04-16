@@ -20,8 +20,8 @@ sudo apt-get update
 sudo apt-get install make git
 
 # configure git
-git config --global user.name "Jacob Zimmerman"
-git config --global user.email "zimmerman.jake@gmail.com"
+git config --global user.name "wangmingjob"
+git config --global user.email "wangmingjob@gmail.com"
 git config --global color.ui true
 git config --global push.default simple
 git config --global credential.helper cache
@@ -38,7 +38,7 @@ rm rcm_1.2.3-1_all.deb
 sudo apt-get install exuberant-ctags
 
 # install dotfiles
-git clone --recursive https://github.com/jez/dotfiles ~/.dotfiles
+git clone --recursive git@github.com:wangmingjob/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 RCRC="./rcrc" rcup
 cd -
